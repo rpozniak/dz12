@@ -5,7 +5,7 @@
 | Вимога з PRD | Тестовий файл | Тест-функції |
 |---|---|---|
 | FR-01 — запуск вузлів | `tests/test_startup_and_power.py` | `test_thor_receives_5v`<br>`test_startup_leds_and_oled` |
-| FR-02 — прив’язка ESP до пульта | `tests/test_esp_binding.py` | `test_bind_then_wifi_after_30s`<br>`test_matching_phrase_enables_control` |
+| FR-02 — налаштування Wi‑Fi та автоматичний зв’язок ESP із пультом | `tests/test_esp_binding.py` | `test_button_opens_wifi_mode`<br>`test_binding_phrase_saved_via_wifi`<br>`test_auto_connection_after_power_on` |
 | FR-03 — перемикання каналу Thor з пульта | `tests/test_thor_channel.py` | `test_mismatch_hides_video`<br>`test_match_restores_video` |
 | FR-04 — передавання відео через дві пари каналів | `tests/test_video.py` | `test_video_when_both_pairs_match`<br>`test_no_video_if_drone_pair_differs`<br>`test_no_video_if_ground_pair_differs` |
 | FR-05 — передавання RC-команд | `tests/test_elrs_control.py` | `test_two_rc_values_reach_test_rx` |
