@@ -4,6 +4,8 @@
 dz12/
 ├── PRD.md
 ├── stand_diagram.png
+├── wokwi_link.md
+├── wokwi_uc02a.png
 ├── project_structure.md
 ├── traceability_matrix.md
 ├── README.md
